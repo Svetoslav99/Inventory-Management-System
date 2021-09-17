@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="/css/01-settings/settings-typography.css">
+    <link rel="stylesheet" href="/css/01-settings/settings-colors.css">
+
+    <link rel="stylesheet" href="/css/02-generics/generics-normalize.css">
+    <link rel="stylesheet" href="/css/02-generics/generics-scrollbar.css">
+
+    <link rel="stylesheet" href="/css/03-elements/elements-background.css">
+    <link rel="stylesheet" href="/css/03-elements/elements-body.css">
+
+    <link rel="stylesheet" href="/css/04-objects/objects-container.css">
+
+    <link rel="stylesheet" href="/css/05-components/components-button.css">
+
+    <link rel="stylesheet" href="/css/05-components/components-navigation.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database manipulation homepage</title>
+</head>
+
+<body class="e-body--queries-table">
+
+    <div class="o-container--row o-container--no-gutters e-queries-background">
+
+        <div class="c-navbar">
+            <input class="c-button c-button--secondary c-button--green" action="action"
+                onclick="window.history.go(-1); return false;" type="submit" value="Go back" />
+        </div>
+
+        <div class="o-container">
+            <div class="o-container--no-gutters">
+                <div class="o-container--center o-container--center--queries-menu">
+
+                    <div class="o-container-cards-wrapper">
+                        <div class="o-container-wrapper">
+                            <form>
+                                <div class="o-container-wrapper__card-title">
+                                    <label class="e-label-title e-label-title--small">
+                                        <h2>Person details manipulation</h2>
+                                    </label>
+                                </div>
+                                <input type="submit" class="c-button c-button--small c-button--green" value="Update"
+                                    formaction="/database-manipulation-homepage/person-details-update"> <br>
+                                <input type="submit" class="c-button c-button--small c-button--blue" value="Insert"
+                                    formaction="/database-manipulation-homepage/person-details-insert"> <br>
+                                <input type="submit" class="c-button c-button--small c-button--red" value="Delete"
+                                    formaction="/database-manipulation-homepage/person-details-delete"> <br>
+                            </form>
+                        </div>
+
+                        <div class="o-container-wrapper">
+                            <form>
+                                <div class="o-container-wrapper__card-title">
+                                    <label class="e-label-title e-label-title--small">
+                                        <h2>Company phone numbers list</h2>
+
+                                    </label>
+                                </div>
+                                <input type="submit" class="c-button c-button--small c-button--green" value="Update"
+                                    formaction="/database-manipulation-homepage/company-phone-numbers-list-update"> <br>
+                                <input type="submit" class="c-button c-button--small c-button--blue" value="Insert"
+                                    formaction="/database-manipulation-homepage/company-phone-numbers-list-insert"> <br>
+                                <input type="submit" class="c-button c-button--small c-button--red" value="Delete"
+                                    formaction="/database-manipulation-homepage/company-phone-numbers-list-delete"> <br>
+                            </form>
+                        </div>
+                        <div class="o-container-wrapper">
+                            <form>
+                                <div class="o-container-wrapper__card-title">
+                                    <label class="e-label-title e-label-title--small">
+                                        <h2>Item type and model information</h2>
+                                    </label>
+                                </div>
+                                <input type="submit" class="c-button c-button--small c-button--green" value="Update"
+                                    formaction="/database-manipulation-homepage/item-type-and-model-information-update"> <br>
+                                <input type="submit" class="c-button c-button--small c-button--blue" value="Insert"
+                                    formaction="/database-manipulation-homepage/item-type-and-model-information-insert"> <br>
+                                <input type="submit" class="c-button c-button--small c-button--red" value="Delete"
+                                    formaction="/database-manipulation-homepage/item-type-and-model-information-delete"> <br>
+                            </form>
+                        </div>
+                        <div class="o-container-wrapper">
+                            <form>
+                                <div class="o-container-wrapper__card-title">
+                                    <label class="e-label-title e-label-title--small">
+                                        <h2>User card</h2>
+                                    </label>
+                                </div>
+                                <input type="submit" class="c-button c-button--small c-button--green" value="Update"
+                                    formaction="/database-manipulation-homepage/user-card-update"> <br>
+                                <input type="submit" class="c-button c-button--small c-button--blue" value="Insert"
+                                    formaction="/database-manipulation-homepage/user-card-insert"> <br>
+                                <input type="submit" class="c-button c-button--small c-button--red" value="Delete"
+                                    formaction="/database-manipulation-homepage/user-card-delete"> <br>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

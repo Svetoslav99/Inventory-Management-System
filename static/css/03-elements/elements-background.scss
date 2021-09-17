@@ -1,0 +1,49 @@
+@import "../01-settings/settings-colors.scss";
+@import "../01-settings/settings-breakpoints.scss";
+
+/*
+    **************************
+    * GENERAL HOMEPAGE STYLE *
+    **************************
+*/
+
+.e-leftside,
+.e-rightside {
+    height: 50vh;
+    /*100% of the vertical height*/
+    width: 100%;
+}
+
+/*it will change the height automatically if it reaches the min size*/
+@include for-tablet-portrait-up {
+    .e-leftside,
+    .e-rightside {
+        height: 100vh;
+    }
+}
+
+.e-leftside {
+    background-color: $yellow-background-color;
+}
+
+.e-rightside {
+    background-color: $green-background-color;
+}
+
+/* 
+    ************************
+    * QUERIES HOMEPAGE STYLE *
+    ************************
+*/
+
+.e-queries-background {
+    height: 100%;
+    width: 100%;
+    /* 100vh */
+    overflow-y: scroll;
+}
+
+.e-database-manipulation-background {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="../css/01-settings/settings-typography.css">
+    <link rel="stylesheet" href="../css/01-settings/settings-colors.css">
+
+    <link rel="stylesheet" href="../css/02-generics/generics-normalize.css">
+    <link rel="stylesheet" href="../css/02-generics/generics-scrollbar.css">
+
+    <link rel="stylesheet" href="../css/03-elements/elements-background.css">
+    <link rel="stylesheet" href="../css/03-elements/elements-body.css">
+
+    <link rel="stylesheet" href="../css/04-objects/objects-container.css">
+
+    <link rel="stylesheet" href="../css/05-components/components-button.css">
+
+    <link rel="stylesheet" href="../css/05-components/components-navigation.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queries homepage</title>
+</head>
+
+<body class="e-body--queries-table">
+
+    <div class="o-container--row o-container--no-gutters e-queries-background">
+
+        <div class="c-navbar">
+            <input class="c-button c-button--secondary c-button--green" action="action"
+                onclick="window.history.go(-1); return false;" type="submit" value="Go back" />
+        </div>
+
+        <div class="o-container">
+            <div class="o-container--no-gutters">
+                <div class="o-container--center o-container--center--queries-menu">
+                    <form>
+                        <input type="submit" class="c-button c-button--primary c-button--green"
+                            value="Person details" formaction="queries-homepage/person-details">
+                        <br>
+                        <input type="submit" class="c-button c-button--primary c-button--green"
+                            value="Company phone numbers list"
+                            formaction="queries-homepage/phone-numbers-list">
+                        <br>
+                        <input type="submit" class="c-button c-button--primary c-button--green"
+                            value="Item type and model information"
+                            formaction="queries-homepage/item-type-and-model-information">
+                        <br>
+                        <input type="submit" class="c-button c-button--primary c-button--green"
+                            value="List of available items per type and model"
+                            formaction="queries-homepage/available-items-per-type-and-model">
+                        <br>
+                        <input type="submit" class="c-button c-button--primary c-button--green"
+                            value="List of all available items"
+                            formaction="queries-homepage/available-items">
+                        <br>
+                        <input type="submit" class="c-button c-button--primary c-button--green"
+                            value="List of all scrapped items"
+                            formaction="queries-homepage/scrapped-items">
+                        <br>
+                        <input type="submit" class="c-button c-button--primary c-button--green"
+                            value="User card - his details and what items are assigned to him"
+                            formaction="queries-homepage/user-card">
+                        <br>
+                        <input type="submit" class="c-button c-button--primary c-button--green"
+                            value="Search by inventory number"
+                            formaction="queries-homepage/search-by-inventory-number">
+                        <br>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

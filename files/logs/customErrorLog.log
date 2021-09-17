@@ -1,0 +1,731 @@
+An error occured: TypeError: Cannot read property 'getCompanyCountry' of undefined
+Error stack trace: TypeError: Cannot read property 'getCompanyCountry' of undefined
+    at Object.<anonymous> (C:\Users\Blood\OneDrive\Desktop\SBD Project\index.js:59:63)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+
+An error occured: Error: listen EADDRINUSE: address already in use :::4000
+Error stack trace: Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Object.<anonymous> (c:\Users\Blood\OneDrive\Desktop\SBD Project\index.js:72:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+
+An error occured: ReferenceError: controllers is not defined
+Error stack trace: ReferenceError: controllers is not defined
+    at Object.<anonymous> (C:\Users\Blood\OneDrive\Desktop\SBD Project\index.js:44:14)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+
+An error occured: Error: listen EADDRINUSE: address already in use :::5000
+Error stack trace: Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Object.<anonymous> (C:\Users\Blood\OneDrive\Desktop\SBD Project\index.js:71:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+
+An error occured: Error: Route.get() requires a callback function but got a [object Undefined]
+Error stack trace: Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Blood\OneDrive\Desktop\SBD Project\node_modules\express\lib\router\route.js:202:15)
+    at Function.app.<computed> [as get] (C:\Users\Blood\OneDrive\Desktop\SBD Project\node_modules\express\lib\application.js:482:19)
+    at Object.<anonymous> (C:\Users\Blood\OneDrive\Desktop\SBD Project\index.js:76:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+
+An error occured: ReferenceError: itemModelName is not defined
+Error stack trace: ReferenceError: itemModelName is not defined
+    at E:\Projects\SBD Project\controllers\queries\getters\available-items-per-type-and-model.js:31:46
+    at Layer.handle [as handle_request] (E:\Projects\SBD Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Projects\SBD Project\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\Projects\SBD Project\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\Projects\SBD Project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Projects\SBD Project\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\Projects\SBD Project\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\SBD Project\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (E:\Projects\SBD Project\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (E:\Projects\SBD Project\node_modules\express\lib\router\layer.js:95:5)
+
+An error occured: TypeError: getQueriesAvailableItemsPerTypeAndModelData is not a function
+Error stack trace: TypeError: getQueriesAvailableItemsPerTypeAndModelData is not a function
+    at E:\Projects\SBD Project\controllers\queries\getters\available-items-per-type-and-model.js:33:30
+    at Layer.handle [as handle_request] (E:\Projects\SBD Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Projects\SBD Project\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\Projects\SBD Project\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\Projects\SBD Project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Projects\SBD Project\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\Projects\SBD Project\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\SBD Project\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (E:\Projects\SBD Project\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (E:\Projects\SBD Project\node_modules\express\lib\router\layer.js:95:5)
+
+An error occured: Error: listen EADDRINUSE: address already in use :::4000
+Error stack trace: Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Object.<anonymous> (e:\Projects\SBD Project\index.js:108:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+
+An error occured: TypeError: Cannot read property '0' of undefined
+Error stack trace: TypeError: Cannot read property '0' of undefined
+    at getQueriesAvailableItemsPerTypeAndModelData (e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:25:50)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\queries\getters\available-items-per-type-and-model.js:33:24
+
+An error occured: TypeError: undefined is not a promise
+Error stack trace: TypeError: undefined is not a promise
+    at Promise (<anonymous>)
+    at getQueriesAvailableItemsPerTypeAndModelData (e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:21:38)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\queries\getters\available-items-per-type-and-model.js:33:24
+
+An error occured: TypeError: returnedData.then is not a function
+Error stack trace: TypeError: returnedData.then is not a function
+    at getQueriesAvailableItemsPerTypeAndModelData (e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:56:22)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\queries\getters\available-items-per-type-and-model.js:33:24
+
+An error occured: ReferenceError: PromiseValue is not defined
+Error stack trace: ReferenceError: PromiseValue is not defined
+    at getQueriesAvailableItemsPerTypeAndModelData (e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:62:33)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\queries\getters\available-items-per-type-and-model.js:33:24
+
+An error occured: TypeError: Cannot read property '0' of undefined
+Error stack trace: TypeError: Cannot read property '0' of undefined
+    at getQueriesAvailableItemsPerTypeAndModelData (e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:62:50)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\queries\getters\available-items-per-type-and-model.js:33:24
+
+An error occured: TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received ''
+Error stack trace: TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received ''
+    at setTimeout (timers.js:134:3)
+    at getQueriesAvailableItemsPerTypeAndModelData (e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:23:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\queries\getters\available-items-per-type-and-model.js:33:24
+
+An error occured: TypeError: returnedData.then is not a function
+Error stack trace: TypeError: returnedData.then is not a function
+    at getQueriesAvailableItemsPerTypeAndModelData (e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:26:22)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\queries\getters\available-items-per-type-and-model.js:33:24
+
+An error occured: TypeError: returnedData.then is not a function
+Error stack trace: TypeError: returnedData.then is not a function
+    at getQueriesAvailableItemsPerTypeAndModelData (e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:26:22)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\queries\getters\available-items-per-type-and-model.js:33:24
+
+An error occured: TypeError: returnedData.then is not a function
+Error stack trace: TypeError: returnedData.then is not a function
+    at getQueriesAvailableItemsPerTypeAndModelData (e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:37:22)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\queries\getters\available-items-per-type-and-model.js:33:24
+
+An error occured: TypeError: returnedDataFunc.then is not a function
+Error stack trace: TypeError: returnedDataFunc.then is not a function
+    at getQueriesAvailableItemsPerTypeAndModelData (e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:37:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\queries\getters\available-items-per-type-and-model.js:33:24
+
+An error occured: TypeError: returnedDataFunc.then is not a function
+Error stack trace: TypeError: returnedDataFunc.then is not a function
+    at getQueriesAvailableItemsPerTypeAndModelData (e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:32:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\queries\getters\available-items-per-type-and-model.js:33:24
+
+An error occured: TypeError: returnedData.then is not a function
+Error stack trace: TypeError: returnedData.then is not a function
+    at getQueriesAvailableItemsPerTypeAndModelData (e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:39:22)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\queries\getters\available-items-per-type-and-model.js:33:24
+
+An error occured: TypeError: returnedDataFunc is not a function
+Error stack trace: TypeError: returnedDataFunc is not a function
+    at getQueriesAvailableItemsPerTypeAndModelData (e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:32:36)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\queries\getters\available-items-per-type-and-model.js:33:24
+
+An error occured: ReferenceError: returnedData is not defined
+Error stack trace: ReferenceError: returnedData is not defined
+    at getQueriesAvailableItemsPerTypeAndModelData (e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:39:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\queries\getters\available-items-per-type-and-model.js:33:24
+
+An error occured: TypeError: returnedData.then is not a function
+Error stack trace: TypeError: returnedData.then is not a function
+    at getQueriesAvailableItemsPerTypeAndModelData (e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:31:22)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\queries\getters\available-items-per-type-and-model.js:33:24
+
+An error occured: TypeError: value.data is not a function
+Error stack trace: TypeError: value.data is not a function
+    at e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:35:32
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+An error occured: TypeError: value.data is not a function
+Error stack trace: TypeError: value.data is not a function
+    at e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:35:32
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+An error occured: TypeError: value.json is not a function
+Error stack trace: TypeError: value.json is not a function
+    at e:\Projects\SBD Project\db\queries\available-items-per-type-and-model.js:35:40
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+An error occured: Error: listen EADDRINUSE: address already in use :::4000
+Error stack trace: Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Object.<anonymous> (E:\Projects\SBD Project\index.js:155:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+
+An error occured: Error: listen EADDRINUSE: address already in use :::4000
+Error stack trace: Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Object.<anonymous> (e:\Projects\SBD Project\index.js:155:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+
+An error occured: TypeError: Assignment to constant variable.
+Error stack trace: TypeError: Assignment to constant variable.
+    at getPersonDetailsInsertData (e:\Projects\SBD Project\db\database-manipulation\person-details\person-details-insert.js:30:98)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-insert.js:35:24
+
+An error occured: Error: Cannot enqueue Quit after invoking quit.
+Error stack trace: Error: Cannot enqueue Quit after invoking quit.
+    at Protocol._validateEnqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:215:16)
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Protocol.quit (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:91:23)
+    at Connection.end (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:239:18)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:10:16
+    at new Promise (<anonymous>)
+    at disconnect (E:\Projects\SBD Project\db\database-manipulation\index.js:9:34)
+    at getPeopleDetailsDeleteData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-delete-get-people.js:42:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-delete-get-people.js:25:24
+
+An error occured: Error: Cannot enqueue Quit after invoking quit.
+Error stack trace: Error: Cannot enqueue Quit after invoking quit.
+    at Protocol._validateEnqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:215:16)
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Protocol.quit (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:91:23)
+    at Connection.end (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:239:18)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:10:16
+    at new Promise (<anonymous>)
+    at disconnect (E:\Projects\SBD Project\db\database-manipulation\index.js:9:34)
+    at getPeopleDetailsDeleteData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-delete-get-people.js:42:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-delete-get-people.js:25:24
+
+An error occured: Error: Cannot enqueue Quit after invoking quit.
+Error stack trace: Error: Cannot enqueue Quit after invoking quit.
+    at Protocol._validateEnqueue (e:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:215:16)
+    at Protocol._enqueue (e:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Protocol.quit (e:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:91:23)
+    at Connection.end (e:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:239:18)
+    at e:\Projects\SBD Project\db\database-manipulation\index.js:10:16
+    at new Promise (<anonymous>)
+    at disconnect (e:\Projects\SBD Project\db\database-manipulation\index.js:9:34)
+    at getPeopleDetailsDeleteData (e:\Projects\SBD Project\db\database-manipulation\person-details\person-details-delete-get-people.js:42:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-delete-get-people.js:25:24
+
+An error occured: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 11
+Error stack trace: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 11
+    at Query.Sequence._packetToError (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPeopleDetailsDeleteData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-delete-get-people.js:21:28)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-delete-get-people.js:25:24
+
+An error occured: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 11
+Error stack trace: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 11
+    at Query.Sequence._packetToError (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPeopleDetailsDeleteData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-delete-get-people.js:21:28)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-delete-get-people.js:25:24
+
+An error occured: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc' at line 11
+Error stack trace: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc' at line 11
+    at Query.Sequence._packetToError (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPeopleDetailsDeleteData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-delete-get-people.js:21:28)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-delete-get-people.js:25:24
+
+An error occured: Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`inventory_management_system`.`phone_number`, CONSTRAINT `fk_phone_number_person1` FOREIGN KEY (`person_id`) REFERENCES `person` (`id`))
+Error stack trace: Error: ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`inventory_management_system`.`phone_number`, CONSTRAINT `fk_phone_number_person1` FOREIGN KEY (`person_id`) REFERENCES `person` (`id`))
+    at Query.Sequence._packetToError (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPersonDetailsDeleteData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-delete.js:12:28)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-delete.js:29:24
+
+An error occured: ReferenceError: request is not defined
+Error stack trace: ReferenceError: request is not defined
+    at E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-insert.js:25:21
+    at Layer.handle [as handle_request] (E:\Projects\SBD Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Projects\SBD Project\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\Projects\SBD Project\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\Projects\SBD Project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Projects\SBD Project\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\Projects\SBD Project\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\SBD Project\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (E:\Projects\SBD Project\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (E:\Projects\SBD Project\node_modules\express\lib\router\layer.js:95:5)
+
+An error occured: Error: ER_BAD_NULL_ERROR: Column 'first_name' cannot be null
+Error stack trace: Error: ER_BAD_NULL_ERROR: Column 'first_name' cannot be null
+    at Query.Sequence._packetToError (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPersonDetailsInsertData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-insert.js:131:52)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-insert.js:36:24
+
+An error occured: Error: ER_BAD_NULL_ERROR: Column 'first_name' cannot be null
+Error stack trace: Error: ER_BAD_NULL_ERROR: Column 'first_name' cannot be null
+    at Query.Sequence._packetToError (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPersonDetailsInsertData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-insert.js:131:52)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-insert.js:36:24
+
+An error occured: Error: ER_BAD_NULL_ERROR: Column 'first_name' cannot be null
+Error stack trace: Error: ER_BAD_NULL_ERROR: Column 'first_name' cannot be null
+    at Query.Sequence._packetToError (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPersonDetailsInsertData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-insert.js:131:52)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-insert.js:36:24
+
+An error occured: Error: ER_BAD_NULL_ERROR: Column 'first_name' cannot be null
+Error stack trace: Error: ER_BAD_NULL_ERROR: Column 'first_name' cannot be null
+    at Query.Sequence._packetToError (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPersonDetailsInsertData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-insert.js:131:52)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-insert.js:36:24
+
+An error occured: Error: ER_BAD_NULL_ERROR: Column 'first_name' cannot be null
+Error stack trace: Error: ER_BAD_NULL_ERROR: Column 'first_name' cannot be null
+    at Query.Sequence._packetToError (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPersonDetailsInsertData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-insert.js:131:52)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-insert.js:36:24
+
+An error occured: Error: listen EADDRINUSE: address already in use :::4000
+Error stack trace: Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Object.<anonymous> (E:\Projects\SBD Project\index.js:157:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+
+An error occured: TypeError: Cannot read property 'trim' of undefined
+Error stack trace: TypeError: Cannot read property 'trim' of undefined
+    at E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-update.js:25:45
+    at Layer.handle [as handle_request] (E:\Projects\SBD Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Projects\SBD Project\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\Projects\SBD Project\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\Projects\SBD Project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Projects\SBD Project\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\Projects\SBD Project\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\SBD Project\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (E:\Projects\SBD Project\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (E:\Projects\SBD Project\node_modules\express\lib\router\layer.js:95:5)
+
+An error occured: TypeError: Cannot read property 'trim' of undefined
+Error stack trace: TypeError: Cannot read property 'trim' of undefined
+    at e:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-update.js:25:45
+    at Layer.handle [as handle_request] (e:\Projects\SBD Project\node_modules\express\lib\router\layer.js:95:5)
+    at next (e:\Projects\SBD Project\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (e:\Projects\SBD Project\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (e:\Projects\SBD Project\node_modules\express\lib\router\layer.js:95:5)
+    at e:\Projects\SBD Project\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (e:\Projects\SBD Project\node_modules\express\lib\router\index.js:335:12)
+    at next (e:\Projects\SBD Project\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (e:\Projects\SBD Project\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (e:\Projects\SBD Project\node_modules\express\lib\router\layer.js:95:5)
+
+An error occured: ReferenceError: countryName is not defined
+Error stack trace: ReferenceError: countryName is not defined
+    at getPersonDetailsUpdateData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-update.js:102:86)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-update.js:36:24
+
+An error occured: ReferenceError: countryName is not defined
+Error stack trace: ReferenceError: countryName is not defined
+    at getPersonDetailsUpdateData (e:\Projects\SBD Project\db\database-manipulation\person-details\person-details-update.js:102:86)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async e:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-update.js:36:24
+
+An error occured: Error: ER_DUP_ENTRY: Duplicate entry 'Varna' for key 'city.region_UNIQUE'
+Error stack trace: Error: ER_DUP_ENTRY: Duplicate entry 'Varna' for key 'city.region_UNIQUE'
+    at Query.Sequence._packetToError (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPersonDetailsUpdateData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-update.js:153:50)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-update.js:36:24
+
+An error occured: Error: ER_DUP_ENTRY: Duplicate entry 'Varna' for key 'city.region_UNIQUE'
+Error stack trace: Error: ER_DUP_ENTRY: Duplicate entry 'Varna' for key 'city.region_UNIQUE'
+    at Query.Sequence._packetToError (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPersonDetailsUpdateData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-update.js:153:50)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-update.js:36:24
+
+An error occured: Error: ER_DUP_ENTRY: Duplicate entry 'Varna' for key 'city.region_UNIQUE'
+Error stack trace: Error: ER_DUP_ENTRY: Duplicate entry 'Varna' for key 'city.region_UNIQUE'
+    at Query.Sequence._packetToError (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPersonDetailsUpdateData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-update.js:153:50)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-update.js:36:24
+
+An error occured: Error: ER_DUP_ENTRY: Duplicate entry 'Varna' for key 'city.region_UNIQUE'
+Error stack trace: Error: ER_DUP_ENTRY: Duplicate entry 'Varna' for key 'city.region_UNIQUE'
+    at Query.Sequence._packetToError (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPersonDetailsUpdateData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-update.js:153:50)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-update.js:36:24
+
+An error occured: ReferenceError: street is not defined
+Error stack trace: ReferenceError: street is not defined
+    at getPersonDetailsUpdateData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-update.js:221:85)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-update.js:36:24
+
+An error occured: Error: ER_BAD_FIELD_ERROR: Unknown column 'a.person_id' in 'on clause'
+Error stack trace: Error: ER_BAD_FIELD_ERROR: Unknown column 'a.person_id' in 'on clause'
+    at Query.Sequence._packetToError (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPersonDetailsUpdateData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-update.js:221:28)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-update.js:36:24
+
+An error occured: Error: Cannot enqueue Query after invoking quit.
+Error stack trace: Error: Cannot enqueue Query after invoking quit.
+    at Protocol._validateEnqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:215:16)
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPersonDetailsDeleteData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-delete.js:63:28)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-delete.js:29:24
+
+An error occured: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''TestCase' 'TestCase' 14)' at line 2
+Error stack trace: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''TestCase' 'TestCase' 14)' at line 2
+    at Query.Sequence._packetToError (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPersonDetailsUpdateData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-update.js:58:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-update.js:36:24
+
+An error occured: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''TestCase' 'TestCase' 14)' at line 2
+Error stack trace: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''TestCase' 'TestCase' 14)' at line 2
+    at Query.Sequence._packetToError (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPersonDetailsUpdateData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-update.js:58:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-update.js:36:24
+
+An error occured: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''TestCase' 'TestCase' 14)' at line 2
+Error stack trace: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''TestCase' 'TestCase' 14)' at line 2
+    at Query.Sequence._packetToError (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\Projects\SBD Project\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (E:\Projects\SBD Project\node_modules\mysql\lib\Connection.js:198:25)
+    at E:\Projects\SBD Project\db\database-manipulation\index.js:14:16
+    at new Promise (<anonymous>)
+    at query (E:\Projects\SBD Project\db\database-manipulation\index.js:13:78)
+    at getPersonDetailsUpdateData (E:\Projects\SBD Project\db\database-manipulation\person-details\person-details-update.js:58:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-update.js:36:24
+

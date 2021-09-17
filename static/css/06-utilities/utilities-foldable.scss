@@ -1,0 +1,12 @@
+@import "../01-settings/settings-colors.scss";
+
+.u-fold {
+        color: $foldable-grey-color;
+        // font-size: 12px;
+        font-size: 0.9em;
+        background-color: $foldable-background-color;
+
+        &:before {
+                content: "";
+        }
+}

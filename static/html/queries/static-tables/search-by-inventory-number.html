@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="/css/01-settings/settings-typography.css">
+    <link rel="stylesheet" href="/css/01-settings/settings-colors.css">
+
+    <link rel="stylesheet" href="/css/02-generics/generics-normalize.css">
+    <link rel="stylesheet" href="/css/02-generics/generics-scrollbar.css">
+    <link rel="stylesheet" href="/css/02-generics/generics-loader.css">
+
+    <link rel="stylesheet" href="/css/03-elements/elements-body.css">
+    <link rel="stylesheet" href="/css/03-elements/elements-background.css">
+
+    <link rel="stylesheet" href="/css/04-objects/objects-container.css">
+
+    <link rel="stylesheet" href="/css/05-components/components-button.css">
+    <link rel="stylesheet" href="/css/05-components/components-table.css">
+
+    <link rel="stylesheet" href="/css/06-utilities/utilities-bold.css">
+    <link rel="stylesheet" href="/css/06-utilities/utilities-uppercase.css">
+    <link rel="stylesheet" href="/css/06-utilities/utilities-margin.css">
+    <link rel="stylesheet" href="/css/06-utilities/utilities-font-size.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search by Inventory Number</title>
+</head>
+
+<body class="e-body--queries-table">
+
+    <table id="data-table" class="c-table c-table--striped c-table--hover">
+
+        <thead class="c-table__thead">
+            <tr>
+                <th scope="col">
+                    <input class="c-button c-button--light c-button--queries-tables" id="back-button" action="action"
+                        onclick="window.history.go(-1); return false;" type="submit" value="Go back" />
+                </th>
+                <th class="c-table__head u-uppercase u-bold" scope="col" colspan="3">
+                    <h4>
+                        <div class="c-table__head u-uppercase u-bold u-header-margin u-font-size--table-header">Search
+                            by Inventory Number </div>
+                        <form action="GET">
+                            <div>
+                                <label class="c-table__head u-uppercase u-bold" for="inventory-number">Inventory Number:</label>
+                                <br>
+                                <input class="u-input-margin" id="inventory-number" type="text">
+                            </div>
+                        </form>
+                        <!-- <select id="cp-filter" class="c-button c-button--light c-button--queries-tables"></select>  -->
+                        <button id="load-data" class="c-button c-button--light c-button--queries-tables">Load</button>
+                    </h4>
+                </th>
+            </tr>
+        </thead>
+
+        <thead class="c-table__thead">
+            <tr id="col-header">
+                <th class="u-bold" scope="col">Inventory Number</th>
+                <th class="u-bold" scope="col">Model Name</th>
+                <th class="u-bold" scope="col">First Name</th>
+                <th class="u-bold" scope="col">Last Name</th>
+            </tr>
+        </thead>
+
+        <tbody class="c-table__tbody">
+            <tr>
+                <td class="u-bold" colspan="4">Please provide "Inventory Number" click "Load" to load the
+                    data from database...</td>
+            </tr>
+        <tfoot class="c-table__tfoot">
+        </tfoot>
+        </tbody>
+
+    </table>
+
+    <div class='g-loader'>
+        <div class="block">
+            <h2>Loading, please wait ...</h2>
+            <div class="g-loader__gear"></div>
+        </div>
+    </div>
+
+    <script src="/js/window-loader.js"></script>
+    <script src="/js/queries/loaders/search-by-inventory-number.js"></script>
+</body>
+
+</html>

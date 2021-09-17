@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,qBAAqB;AACrB,AAAA,mBAAmB,CAAC;EAChB,KAAK,EAAE,GAAG;CACb;;AAED,AAAA,yBAAyB,CAAC;EACtB,gBAAgB,EAAE,OAAkB;CACvC;;AAED,sBAAsB;AACtB,AAAA,yBAAyB,CAAC;EACtB,aAAa,EAAE,GAAG;EAClB,gBAAgB,EAAE,OAAO;EACzB,gBAAgB,EAAE,iDAAgF;CACrG",
+    "sources": [
+        "generics-scrollbar.scss",
+        "../01-settings/settings-colors.scss"
+    ],
+    "names": [],
+    "file": "generics-scrollbar.css"
+}

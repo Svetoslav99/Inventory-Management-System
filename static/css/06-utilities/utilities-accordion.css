@@ -1,0 +1,15 @@
+.u-accordion {
+  cursor: pointer !important;
+  color: #000 !important;
+  font-size: 1em !important;
+}
+
+.u-accordion:before {
+  content: "+";
+  font-size: 2em;
+}
+
+.u-accordion.active:before {
+  content: '-';
+}
+/*# sourceMappingURL=utilities-accordion.css.map */

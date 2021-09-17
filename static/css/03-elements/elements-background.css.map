@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA;;;;EAIE;AAEF,AAAA,WAAW;AACX,YAAY,CAAC;EACT,MAAM,EAAE,IAAI;EACZ,+BAA+B;EAC/B,KAAK,EAAE,IAAI;CACd;;AAED,sEAAsE;AETlE,MAAM,EAAE,SAAS,EAAE,KAAK;EFWxB,AAAA,WAAW;EACX,YAAY,CAAC;IACT,MAAM,EAAE,KAAK;GAChB;;;AAGL,AAAA,WAAW,CAAC;EACR,gBAAgB,ECvBM,OAAkB;CDwB3C;;AAED,AAAA,YAAY,CAAC;EACT,gBAAgB,EC1BK,OAAkB;CD2B1C;;AAED;;;;EAIE;AAEF,AAAA,qBAAqB,CAAC;EAClB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,WAAW;EACX,UAAU,EAAE,MAAM;CACrB;;AAED,AAAA,mCAAmC,CAAC;EAChC,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "elements-background.scss",
+        "../01-settings/settings-colors.scss",
+        "../01-settings/settings-breakpoints.scss"
+    ],
+    "names": [],
+    "file": "elements-background.css"
+}

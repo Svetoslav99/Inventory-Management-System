@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,CAAC;EACA,KAAK,ECWS,OAAkB;EDThC,SAAS,EAAE,KAAK;EAChB,gBAAgB,ECkBI,OAAkB;CDb7C;;AATD,AAMQ,OAND,AAME,OAAO,CAAC;EACD,OAAO,EAAE,EAAE;CAClB",
+    "sources": [
+        "utilities-foldable.scss",
+        "../01-settings/settings-colors.scss"
+    ],
+    "names": [],
+    "file": "utilities-foldable.css"
+}

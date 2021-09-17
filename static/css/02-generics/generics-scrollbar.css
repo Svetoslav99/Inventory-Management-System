@@ -1,0 +1,17 @@
+/* scrollbar width */
+::-webkit-scrollbar {
+  width: 1em;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e0ffbc;
+}
+
+/* scrollbar handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 1em;
+  background-color: #e0ffbc;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#72bb1f), to(#fffed7));
+  background-image: linear-gradient(to top, #72bb1f 0%, #fffed7 100%);
+}
+/*# sourceMappingURL=generics-scrollbar.css.map */

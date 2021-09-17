@@ -1,0 +1,10 @@
+.u-fold {
+  color: #888787;
+  font-size: 0.9em;
+  background-color: #e0ffbc;
+}
+
+.u-fold:before {
+  content: "";
+}
+/*# sourceMappingURL=utilities-foldable.css.map */

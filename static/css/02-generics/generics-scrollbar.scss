@@ -1,0 +1,17 @@
+@import "../01-settings/settings-colors.scss";
+
+/* scrollbar width */
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(224, 255, 188);
+}
+
+/* scrollbar handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 1em;
+    background-color: #e0ffbc;
+    background-image: linear-gradient(to top, $green-scrollbar-color 0%, $yellow-scrollbar-color 100%);
+}

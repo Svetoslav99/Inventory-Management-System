@@ -1,0 +1,102 @@
+@import "../01-settings/settings-colors.scss";
+
+.c-table {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    color: #212529;
+    border-spacing: 2px;
+    border-color: lightgray;
+    border-collapse: collapse;
+    align-content: center;
+    vertical-align: middle;
+    text-align: center;
+    margin: 5em 0; // 5em top and bottom, 0em left and right
+    font-size: 1em;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 1.5);
+    overflow-wrap: break-word; // word-break:keep-all; keep-all
+    max-width: 100%;
+
+    thead {
+        flex: 100%;
+        width: 100%;
+    }
+    
+    tfoot {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    thead, tfoot {
+        background-color: $dark-green-ofgem-table-color;
+        color: $white-ofgem-table-color;
+    }
+
+    tr {
+        width: 100%;
+        display: table;
+        table-layout: fixed;
+    }
+
+    tbody {
+        flex: 1 1 auto;
+        display: block;
+        overflow-y: auto;
+        overflow-x: hidden;
+        background-color: rgb(190, 245, 136);
+        width: 100%;
+        max-height: 500px;
+
+        &--green-body {
+            background-color: $tbody-background-color-green-color;
+        }
+    }
+
+    th,
+    td {
+        padding: 0.75rem; //.75rem;
+        vertical-align: middle;
+        border: 1px solid #dee2e6; //1px solid #dee2e6;
+    }
+
+    &--scrollable-table{
+        thead, tfoot {
+            width: 99.1%;
+        }
+        tbody{
+            overflow-y: scroll;
+            width: 99.9%;
+        }
+    }
+
+    &--bordered {
+        border: 1px solid #dee2e6;
+    }
+
+    &--striped {
+        & > tbody > tr:nth-child(odd),
+        & > tbody > tr:nth-child(odd) {
+            background-color: $table-striped-odd-color;
+        }
+
+        & > tbody > tr:nth-child(even),
+        & > tbody > tr:nth-child(even) {
+            background-color: $table-striped-even-color;
+        }
+    }
+
+    &--hover {
+        & tbody tr:hover {
+            background-color: $yellow-background-color;
+        }
+    }
+
+    &--uploaded-files {
+        max-width: 50%!important;
+    }
+
+    ::selection {
+        color: $orange-selection-color;
+        background: $yellow-selection-background-color;
+    }
+
+}

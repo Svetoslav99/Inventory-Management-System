@@ -1,0 +1,46 @@
+@import "../01-settings/settings-colors.scss";
+
+/* 
+    ************************
+    * OFGEM HOMEPAGE STYLE *
+    ************************
+*/
+
+.e-body--queries {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: $green-background-color;
+}
+
+/* 
+    ********************
+    * OFGEM TABLE STYLE*
+    ********************
+*/
+
+.e-body--queries-table {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    background-color: $green-background-color;
+    /* Custom Scrollbar using CSS */
+    overflow-y: scroll;
+}
+
+/* 
+    ************************
+    * UK MARKET HOMEPAGE STYLE *
+    ************************
+*/
+
+.e-body--database-manipulation{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: $yellow-background-color;
+}
+ 

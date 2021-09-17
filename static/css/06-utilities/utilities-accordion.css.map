@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,YAAY,CAAC;EACT,MAAM,EAAE,kBAAkB;EAC1B,KAAK,ECJK,IAAI,CDIM,UAAU;EAC9B,SAAS,EAAE,cAAc;CAC5B;;AAED,AAAA,YAAY,AAAA,OAAO,CAAC;EAChB,OAAO,EAAE,GAAG;EACZ,SAAS,EAAE,GAAG;CACjB;;AAED,AAAA,YAAY,AAAA,OAAO,AAAA,OAAO,CAAC;EACvB,OAAO,EAAE,GAAG;CACf",
+    "sources": [
+        "utilities-accordion.scss",
+        "../01-settings/settings-colors.scss"
+    ],
+    "names": [],
+    "file": "utilities-accordion.css"
+}

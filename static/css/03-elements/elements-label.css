@@ -1,0 +1,18 @@
+.e-label-title {
+  display: inline-block;
+  *display: inline;
+  /* for IE7*/
+  zoom: 1;
+  /* for IE7*/
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.e-label-title--big {
+  width: 40em;
+}
+
+.e-label-title--small {
+  width: 20em;
+}
+/*# sourceMappingURL=elements-label.css.map */
