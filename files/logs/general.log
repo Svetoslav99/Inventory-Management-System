@@ -2452,3 +2452,6 @@
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
     at async E:\Projects\SBD Project\controllers\database-manipulation\getters\person-details\person-details-update.js:36:24
 [2021-09-17 05:55:19] App is running on localhost:4000
+[2021-09-17 07:32:18] App is running on localhost:4000
+[2021-09-17 07:38:33] App is running on localhost:4000
+[2021-09-17 07:41:01] App is running on localhost:4000
